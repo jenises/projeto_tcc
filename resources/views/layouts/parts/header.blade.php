@@ -9,7 +9,6 @@
               </a>
             </li>
             <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Contact</a></li>
           </ul>
           <!--end::Start Navbar Links-->
           <!--begin::End Navbar Links-->
@@ -33,19 +32,19 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src={{Vite::asset('resources/images/user1-128x128.jpg')}}
+                        src={{Vite::asset('resources/images/perfil.jpg')}}
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
                     </div>
                     <div class="flex-grow-1">
                       <h3 class="dropdown-item-title">
-                        Brad Diesel
+                        Jenises Rudolf
                         <span class="float-end fs-7 text-danger"
                           ><i class="bi bi-star-fill"></i
                         ></span>
                       </h3>
-                      <p class="fs-7">Call me whenever you can...</p>
+                      <p class="fs-7">precisamos alinhar o cronograma desta semana</p>
                       <p class="fs-7 text-secondary">
                         <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
                       </p>
@@ -59,19 +58,19 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src={{Vite::asset('resources/images/user8-128x128.jpg')}}
+                        src={{Vite::asset('resources/images/perfil.jpg')}}
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
                     </div>
                     <div class="flex-grow-1">
                       <h3 class="dropdown-item-title">
-                        John Pierce
+                        Jenises Rudolf
                         <span class="float-end fs-7 text-secondary">
                           <i class="bi bi-star-fill"></i>
                         </span>
                       </h3>
-                      <p class="fs-7">I got your message bro</p>
+                      <p class="fs-7">Me chama depois</p>
                       <p class="fs-7 text-secondary">
                         <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
                       </p>
@@ -97,7 +96,7 @@
                           <i class="bi bi-star-fill"></i>
                         </span>
                       </h3>
-                      <p class="fs-7">The subject goes here</p>
+                      <p class="fs-7">Ta bom!</p>
                       <p class="fs-7 text-secondary">
                         <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
                       </p>
@@ -106,7 +105,7 @@
                   <!--end::Message-->
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                <a href="#" class="dropdown-item dropdown-footer">Ver todas as mensagens</a>
               </div>
             </li>
             <!--end::Messages Dropdown Menu-->
@@ -120,17 +119,17 @@
                 <span class="dropdown-item dropdown-header">15 Notifications</span>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-envelope me-2"></i> 4 new messages
+                  <i class="bi bi-envelope me-2"></i> 3 Novos projetos
                   <span class="float-end text-secondary fs-7">3 mins</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-people-fill me-2"></i> 8 friend requests
+                  <i class="bi bi-people-fill me-2"></i> 8 alterações de cronogramas
                   <span class="float-end text-secondary fs-7">12 hours</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                  <i class="bi bi-file-earmark-fill me-2"></i> 3 new reports
+                  <i class="bi bi-file-earmark-fill me-2"></i> 2 novas migrações para acontecer
                   <span class="float-end text-secondary fs-7">2 days</span>
                 </a>
                 <div class="dropdown-divider"></div>
@@ -150,41 +149,31 @@
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src={{Vite::asset('resources/images/user2-160x160.jpg')}}
+                  src={{Vite::asset('resources/images/editada.jpg')}}
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
-                <span class="d-none d-md-inline">Jenises Rudolf</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
                 <li class="user-header text-bg-primary">
                   <img
-                    src={{Vite::asset('resources/images/user2-160x160.jpg')}}
+                    src={{Vite::asset('resources/images/editada.jpg')}}
                     class="rounded-circle shadow"
                     alt="User Image"
                   />
                   <p>
-                    Jenises Rudolf - Alanista de Sistemas
+                    Jenises Rudolf - Analista de Sistemas
                     <small>Membro desde Dez. 2015</small>
                   </p>
                 </li>
                 <!--end::User Image-->
                 <!--begin::Menu Body-->
-                <li class="user-body">
-                  <!--begin::Row-->
-                  <div class="row">
-                    <div class="col-4 text-center"><a href="#">Followers</a></div>
-                    <div class="col-4 text-center"><a href="#">Sales</a></div>
-                    <div class="col-4 text-center"><a href="#">Friends</a></div>
-                  </div>
-                  <!--end::Row-->
-                </li>
                 <!--end::Menu Body-->
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                  <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+                  <a href="#" class="btn btn-default btn-flat">Perfil</a>
+                  <a href="#" class="btn btn-default btn-flat float-end">Desconectar</a>
                 </li>
                 <!--end::Menu Footer-->
               </ul>

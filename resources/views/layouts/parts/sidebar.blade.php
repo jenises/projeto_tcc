@@ -2,7 +2,7 @@
         <!--begin::Sidebar Brand-->
         <div class="sidebar-brand">
           <!--begin::Brand Link-->
-          <a href="./index.html" class="brand-link">
+          <a href="{{ route('home') }}" class="brand-link">
             <!--begin::Brand Image-->
             <img
               src={{Vite::asset('resources/images/AdminLTELogo.png')}}
@@ -36,8 +36,8 @@
                   </p>
                 </a>
               <li class="nav-item">
-                <a href="./generate/theme.html" class="nav-link">
-                  <i class="nav-icon bi bi-palette"></i>
+                <a href="{{ route('migracao') }}" class="nav-link">
+                  <i class="nav-icon bi bi-database-fill-x"></i>
                   <p>Migrações</p>
                 </a>
               </li>
@@ -46,17 +46,14 @@
                   <i class="nav-icon bi bi-box-seam-fill"></i>
                   <p>
                     Profissionais
-                    <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-clipboard-fill"></i>
+                  <i class="nav-icon bi bi-file-person-fill"></i>
                   <p>
                     Usuários
-                    <span class="nav-badge badge text-bg-secondary me-3">6</span>
-                    <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
               </li>
@@ -67,25 +64,6 @@
                     Gerenciamento
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
-                </a>
-              </li>
-              <li class="nav-header">LABELS</li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-danger"></i>
-                  <p class="text">Important</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-warning"></i>
-                  <p>Warning</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-info"></i>
-                  <p>Informational</p>
                 </a>
               </li>
             </ul>
